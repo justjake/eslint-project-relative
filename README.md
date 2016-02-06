@@ -25,6 +25,11 @@ npm install -g eslint-project-relative
 
 Then, configure editor:
 
+### syntastic (vim)
+```
+let g:syntastic_javascript_eslint_exec = 'eslint-project-relative'
+```
+
 ### flycheck (emacs)
 ```elisp
 (setq flycheck-javascript-eslint-executable "eslint-project-relative")
