@@ -27,5 +27,5 @@ Then, configure editor:
 
 ### flycheck (emacs)
 ```elisp
-(setq flycheck-javascript-eslint-executable "eslint-project-relative")`
+(setq flycheck-javascript-eslint-executable "eslint-project-relative")
 ```
