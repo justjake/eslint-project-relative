@@ -1,10 +1,10 @@
 {
   "name": "eslint-project-relative",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "run the right eslint for your project from flycheck or syntastic",
   "main": "index.js",
   "bin": {
-      "eslint-project-relative": "./index.js"
+    "eslint-project-relative": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
