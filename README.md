@@ -34,3 +34,7 @@ let g:syntastic_javascript_eslint_exec = 'eslint-project-relative'
 ```elisp
 (setq flycheck-javascript-eslint-executable "eslint-project-relative")
 ```
+
+### other editors
+
+PRS WELCOME!!!!1 update my readme pls.
