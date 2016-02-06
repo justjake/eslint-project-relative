@@ -1,6 +1,6 @@
 {
   "name": "eslint-project-relative",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "run the right eslint for your project from flycheck or syntastic",
   "main": "index.js",
   "bin": {
