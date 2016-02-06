@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-// what it depends on eslint?? that's crazy.
-var optionParser = require('eslint/lib/options')
 var kexec = require('kexec')
 var yargs = require('yargs')
 var path = require('path')
@@ -10,13 +8,7 @@ var resolve = require('resolve')
 var fs = require('fs')
 
 function getFileArgs() {
-  try {
-    var options = optionParser.parse(process.argv)
-    return options._
-  } catch (err) {
-    shell.echo("couldn't parse with eslint options parser, using yargs")
-    return yargs.argv._
-  }
+  return yargs.argv._
 }
 
 function eslintNearFile(file) {
