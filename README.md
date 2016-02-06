@@ -26,7 +26,7 @@ npm install -g eslint-project-relative
 Then, configure editor:
 
 ### syntastic (vim)
-```
+```vimscript
 let g:syntastic_javascript_eslint_exec = 'eslint-project-relative'
 ```
 
