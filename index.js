@@ -40,7 +40,7 @@ function main() {
   var exe = eslintNearFile(relativeFrom)
   if (exe) {
     // shell.echo("using eslint at " + exe)
-    kexec(exe, process.argv)
+    kexec(exe, process.argv.slice(2))
   } else {
     shell.echo('eslint not found')
     process.exit(1)
